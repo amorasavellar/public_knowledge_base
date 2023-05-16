@@ -3,9 +3,9 @@
 
 ## Resumo do Modulo:
 
-Neste modulo, foi abordado a necessidade da utilização do docker além da explicação de como criar o docker compose.
-Adicionalmente foi abordado os conceitos básico de sql como GROUP BY, WHERE e conceitos mais avançados como a criação
-de tabelas, views, CTEs e o uso de Window Functions.
+In this module, the need to use docker was addressed in addition to explaining how to create docker compose.
+Additionally, the basic concepts of sql such as GROUP BY, WHERE and more advanced concepts such as creating
+of tables, views, CTEs and the use of Window Functions.
 
 ## Comandos para utilização do código:
 
