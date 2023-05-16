@@ -2,7 +2,25 @@
 
 # Description:
 
-This repository contains the documentation of all the content learned in the How Bootcamps Data Engineering bootcamp.
+This repository contains documentation of all content learned in the [How Bootcamps Data Engineering](https://howedu.com.br/cohort/engenharia-de-dados/) bootcamp.
+
+Content learned:
+
+Fundamentals of Data Engineering;
+Fundamentals of Data Ingestion;
+SQL, Docker and Metabase;
+Capturing data from an API;
+Capturing data with crawlers;
+Tests + Jenkins;
+Vscode Terminal (Extra);
+Git + GitHub;
+Introduction to AWS;
+Continuous Integration;
+Data Lakes;
+AWS Glue + Athena;
+Redshift + Spectrum;
+apache airflow;
+Terraform and Cloudformation;
 
 # Modules:
 
