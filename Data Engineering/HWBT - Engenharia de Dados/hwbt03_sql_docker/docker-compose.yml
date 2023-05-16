@@ -1,14 +1,21 @@
+#Versão do docker
 version: "3"
 services:
-  site:
+  db:
+    #referenciando a imagem https://hub.docker.com/_/postgres
     image: postgres:14.2-alpine
+    #definindo nome do container
     container_name: "pg_container"
+    #definindo variaveis de ambiente do banco de dados
     environment:
       - POSTGRES_USER=root
       - POSTGRES_PASSWORD=root
       - POSTGRES_DB=test_db
+    #definindo a porta do banco de dados (postgres usa a porta 5432)
+    #a porta 5432 da minha máquina, vai conectar na porta 5432 do meu container
     ports:
       - "5432:5432"
+    #aloca um volume da máquina em um local especifico do container
     volumes:
       - "./db:/vat/lib/postgresql/data/"
 

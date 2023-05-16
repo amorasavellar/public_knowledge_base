@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hwbt03-sql-docker"
+version = "0.1.0"
+description = ""
+authors = ["amorasavellar <amorasleandro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hwbt03_sql_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.13"
+pandas = "^2.0.1"
+ipykernel = "^6.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
