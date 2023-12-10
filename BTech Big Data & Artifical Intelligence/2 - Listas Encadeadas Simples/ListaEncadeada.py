@@ -29,16 +29,26 @@ class ListaEncadeada:
                 cont = cont+1
                 atual = atual.proximo
                 
-            print("Final da Lista")
+            print("Final da Lista\n")
             
     #Métodos que você deverá desenvolver com o total de produtos possui a necessidade de refrigeração
     
     def TotalProdutoRefrigerado(self):
         
         atual = self.inicio
+        cont =0
         
-        #completar
-        pass
+        print("Inicio da Contagem")
+        
+        if self.inicio == None:
+            print("Nenhum Produto refrigerado!")
+        else:
+            while atual!=None:
+                cont = cont + atual.Tipo
+                atual = atual.proximo
+                
+            print(f"Total de Produtos Refrigerados: {cont}")
+            print("Fim da contagem!\n")
     
         #return total
         

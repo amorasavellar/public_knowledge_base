@@ -20,4 +20,4 @@ lista.NovoProduto(Produto("005",0))
 lista.ImprimeLista()
 
 #Impressão do total de produtos que precisam de refrigeração
-print(f"Total de produtos com Refrigeração: {lista.TotalProdutoRefrigerado}")
+lista.TotalProdutoRefrigerado()
