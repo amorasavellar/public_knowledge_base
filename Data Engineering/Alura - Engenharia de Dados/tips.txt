@@ -1,0 +1,10 @@
+// Atualização do sistema
+
+//Download dos pacotes
+$ sudo apt-get update
+
+// Upgrade dos pacotes
+$ sudo apt-get upgrade -y
+
+// Instalando versão especifica do python
+$ sudo apt install python3.10-venv
